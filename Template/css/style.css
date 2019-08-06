@@ -1,0 +1,295 @@
+html {
+    height: 100VH;
+    width: 100VW;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bckGradient {
+    background-image: linear-gradient(to right, #0984E3, #04C6AC);
+}
+
+.textBlue {
+    margin-top: 0 !important;
+    color: dodgerblue;
+}
+
+.textBold {
+    font-weight: bold;
+}
+
+.buttonNoColor {
+    border: 2px solid white;
+    background: none;
+    color: white;
+}
+
+.buttonBlue {
+    border: 0;
+    background: dodgerblue;
+    color: white;
+}
+
+.buttonBlue:hover{
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    background: rgb(24, 116, 209);
+}
+
+.inputDefault {
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.inputSearch {
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    padding-left: 10px;
+    background-color: white;
+    text-align: left !important;
+}
+
+.navbar {
+    top: 0;
+    float: left;
+    height: 10VH;
+    width: 100VW;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(11, 125, 212), rgb(13, 184, 161));
+}
+
+.mainContainer {
+    float: left;
+    height: 90VH;
+    width: 100VW;
+    margin-top: 10VH;
+}
+
+.logoContainer {
+    width: 20%;
+    float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 18%;
+    float: left;
+    height: 60%;
+}
+
+.brand {
+    width: 30%;
+    float: left;
+    height: 60%;
+    margin-left: 2%;
+}
+
+.brand p {
+    margin: 0;
+    height: 50%;
+    width: 100%;
+    float: left;
+    color: white;
+}
+
+.searchbar {
+    width: 40%;
+    float: left;
+    height: 100%;
+    margin: 0 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbar input {
+    width: 80%;
+    float: left;
+    height: 50%;
+    text-align: center;
+}
+
+.login {
+    width: 20%;
+    float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login a {
+    text-decoration: none;
+    color: white;
+}
+
+.login a:hover {
+    color: #00a4c5;
+    text-decoration: none;
+    transition: .2s ease-in-out;
+}
+
+.welcome {
+    float: left;
+    width: 70VW;
+    height: 46VH;
+    margin-left: 8VW;
+    margin-top: 16VH;
+}
+
+.welcome p {
+    margin: 0%;
+    float: left;
+    width: 100%;
+    height: 20%;
+    color: white;
+    font-size: 2.6em;
+}
+
+.mainContainer button {
+    width: 30%;
+    height: 22%;
+    float: left;
+    margin-top: 8VH;
+    transition: .2 ease-in-out;
+}
+
+.mainContainer button:hover {
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    background: rgba(0, 0, 0, .1);
+}
+
+.cardIconContainer {
+    top: 40VH;
+    left: 50VW;
+    width: 40VW;
+    height: 40VH;
+    float: right;
+    display: flex;
+    margin-top: 1VH;
+    margin-right: 2vw;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardIconContainer img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.formContainer {
+    float: left;
+    width: 56VW;
+    height: auto;
+    margin-top: 12VH;
+}
+
+.infoContainer {
+    float: right;
+    width: 42VW;
+    height: 80VH;
+    margin-top: 12VH;
+    margin-right: 1VW;
+}
+
+.infoContainer p {
+    width: 80%;
+    float: left;
+    height: 14VH;
+    margin-top: 0;
+    font-size: 2em;
+    margin-left: 10%;
+    margin-bottom: 0;
+    margin-top: 20%;
+}
+
+.infoNav {
+    width: 60%;
+    height: 16%;
+    float: left;
+    margin-left: 20%;
+}
+
+.headerSection {
+    width: 60%;
+    height: 18%;
+    margin-left: 20%;
+    border-bottom: 1px solid gray
+}
+
+.formDefault {
+    float: left;
+    width: 100%;
+    height: 100% !important;
+    margin-top: 2%;
+}
+
+.formDefault label {
+    width: 60%;
+    height: 6VH;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+
+.formDefault input[type=text] {
+    width: 60%;
+    float: left;
+    height: 4.8VH;
+    margin-left: 20%;
+    padding-left: 6px;
+}
+
+.formFooter {
+    float: left;
+    width: 60%;
+    height: 16Vh;
+    margin-left: 20%;
+    padding: 0 4px;
+}
+
+.terms {
+    width: 50%;
+    float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.terms input{
+    cursor: pointer;
+}
+
+.terms label{
+    margin-left: 1%;
+    font-size: .8em;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.formFooter button {
+    width: 40%;
+    height: 50%;
+    float: right;
+    margin-top: 6%;
+    transition: .2s ease-in-out;
+}
