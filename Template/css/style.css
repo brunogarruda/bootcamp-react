@@ -189,8 +189,8 @@ body {
 
 .cardIconContainer img {
     width: 100%;
-    height: 100%;
     float: left;
+    height: 100%;
 }
 
 .formContainer {
@@ -201,22 +201,26 @@ body {
 }
 
 .infoContainer {
-    float: right;
     width: 42VW;
     height: 80VH;
+    float: right;
     margin-top: 12VH;
     margin-right: 1VW;
 }
 
-.infoContainer p {
+.infoContainer div{
     width: 80%;
     float: left;
-    height: 14VH;
-    margin-top: 0;
-    font-size: 2em;
-    margin-left: 10%;
-    margin-bottom: 0;
     margin-top: 20%;
+    margin-left: 10%;
+}
+
+.infoContainer p {
+    margin: 0;
+    width: 100%;
+    float: left;
+    font-size: 2.6em;
+    text-align: right;
 }
 
 .infoNav {
