@@ -8,6 +8,8 @@
     <title>Banco Digital</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
+        integrity="sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE=" crossorigin="anonymous" />
 </head>
 
 <body class="bckGradient">
@@ -28,12 +30,12 @@
 
         <div class="searchbar">
             <Input class="inputSearch" placeholder="O que você está procurando?">
-            <i>
-            </i>
+            <i class="fas fa-search searchIcon"></i>
             </Input>
         </div>
 
         <div class="login">
+            <i class="far fa-user"></i>
             <a href="#">Entrar</a>
         </div>
 
@@ -41,10 +43,10 @@
 
     <div class="mainContainer">
         <div class="welcome">
-            <p>Parabéns Diego Brito, seu cartão</p>
-            <p>físico será entregue no</p>
-            <p>endereço informado.</p>
-            <button class="buttonNoColor">Página inicial</button>
+            <p>Parabéns Diego Brito,</p>
+            <p>seu cadastro foi efetuado</p>
+            <p>com sucesso!</p>
+            <button onclick="window.location.href='./index.html'" class="buttonNoColor">Página inicial</button>
         </div>
         <div class="cardIconContainer">
             <img src="./svg/credit-card.svg" class="logo">

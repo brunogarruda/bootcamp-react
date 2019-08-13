@@ -11,6 +11,10 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.inputSearch{
+    outline: 0;
+}
+
 .bckGradient {
     background-image: linear-gradient(to right, #0984E3, #04C6AC);
 }
@@ -48,12 +52,21 @@ body {
 }
 
 .inputSearch {
+    outline: 0;
     border: none;
     cursor: pointer;
-    border-radius: 30px;
     padding-left: 10px;
+    border-radius: 30px;
     background-color: white;
     text-align: left !important;
+}
+
+.searchIcon {    
+    top: 3.2vh;
+    left: 62.6VW;
+    color: gray;
+    font-size: 1.4em;
+    position: absolute;
 }
 
 .navbar {
@@ -98,6 +111,7 @@ body {
 }
 
 .brand p {
+    cursor: default;
     margin: 0;
     height: 50%;
     width: 100%;
@@ -136,8 +150,15 @@ body {
     color: white;
 }
 
+.login i{
+    float: left;
+    width: 30px;
+    height: 24px;
+    color:white;
+    font-size: 1.6em;
+}
+
 .login a:hover {
-    color: #00a4c5;
     text-decoration: none;
     transition: .2s ease-in-out;
 }
@@ -151,6 +172,7 @@ body {
 }
 
 .welcome p {
+    cursor: default;
     margin: 0%;
     float: left;
     width: 100%;
